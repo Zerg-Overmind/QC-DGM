@@ -10,7 +10,6 @@ from QCDGM.affinity_layer import Affinity
 from utils.hungarian import hungarian
 import torch.nn.functional as F
 from utils.config import cfg
-from utils.hungarian import hungarian
 import utils.backbone
 CNN = eval('utils.backbone.{}'.format(cfg.BACKBONE))
 
