@@ -33,4 +33,7 @@ class FMLoss(nn.Module):
 
             n_sum += pred_ns[b].to(n_sum.dtype).to(pred_perm.device)
         return torch.exp(alpha * loss_n / n_sum) - 1 + torch.exp(beta * loss_p / n_sum) - 1
-   
+           # a more general setting
+           # alpha = 2
+           # beta = 2
+           # return (torch.exp(alpha * loss_n / n_sum) + torch.exp(beta * loss_p / n_sum))/4  
