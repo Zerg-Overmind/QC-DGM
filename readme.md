@@ -42,22 +42,24 @@ It also contains the configuration files to reproduce the results of qc-DGM_1 re
    
    or you could replace the default ``./experiments/QCDGM_voc.yaml`` with path to your own configuration file.
    
-## Results
+## Results and model zoo
 We report the performance on Pascal VOC Keypoint and Willow Object Class datasets.
 
 **Pascal VOC Keypoint**
 
-|  method  | aero | bike | bird | boat | bottle |  bus  | car  | cat  | chair | cow  | table | dog  | horse | mbike | person | plant | sheep | sofa | train |  tv  |   mean   |
-| -------- | ---- | ---- | ---- | ---- | ------ | ----- | ---- | ---- | ----- | ---- | ----- | ---- | ----- | ----- | ------ | ----- | ----- | ---- | ----- | ---- | -------- |
-|  qc-DGM  | 48.4 | 61.6 | 65.3 | 61.3 |  82.4  |  79.6 | 74.3 | 72.0 |  41.8 | 68.8 |  65.0 | 66.1 |  70.9 |  69.6 |  48.2  |  92.1 |  69.0 | 66.7 |  90.4 | 91.8 |   69.3   |
+|  method  | Download | aero | bike | bird | boat | bottle |  bus  | car  | cat  | chair | cow  | table | dog  | horse | mbike | person | plant | sheep | sofa | train |  tv  |   mean   |
+| -------- | -------- | ---- | ---- | ---- | ---- | ------ | ----- | ---- | ---- | ----- | ---- | ----- | ---- | ----- | ----- | ------ | ----- | ----- | ---- | ----- | ---- | -------- |
+|  qc-DGM  | [parameter](https://drive.google.com/file/d/1239Lx5jt08-s5g-CyfDHRekA92hUl8bC/view?usp=sharing)| 48.4 | 61.6 | 65.3 | 61.3 |  82.4  | 79.6 | 74.3 | 72.0 | 41.8 | 68.8 | 65.0 | 66.1 | 70.9 | 69.6 |  48.2  | 92.1 | 69.0 | 66.7 | 90.4 | 91.8 |  69.3  |
 
+For the convenience of evaluation, our trained parameter file is provided by BaiduYun [download](https://pan.baidu.com/s/1GyyZtbtJBBt6A3FL51ZqrQ) link with extracting code **vocc**. Download the parameter file with path to ``./output/QCDGM_voc/params/`` and run evaluation on Pascal VOC Keypoint.
 
 **Willow Object Class**
 
-| method | face | m-bike | car |  duck  | wbottle |  mean  |
-| ------ |------| ------ | --- | ------ | ------- | -------|
-| qc-DGM | 100.0|  95.0  | 93.8|  93.8  |  97.6   |  96.0  |  
+| method | Download | face | m-bike | car |  duck  | wbottle |  mean  |
+| -------| -------- |------| ------ | --- | ------ | ------- | -------|
+| qc-DGM | [parameter](https://drive.google.com/file/d/16jhOBpAEUREbqjxzjoW0KbsJkWOZfJ_i/view?usp=sharing) | 100.0 | 95.0 | 93.8 | 93.8 |  97.6 | 96.0 |  
 
+For the convenience of evaluation, our trained parameter file is provided by BaiduYun [download](https://pan.baidu.com/s/1MA8eQrAUIDBzjBKt520lmg) link with extracting code **will**. Download the parameter file with path to ``./output/QCDGM_willow/params/`` and run evaluation on Willow Object Class dataset. 
  
 ## Citation
 ```text

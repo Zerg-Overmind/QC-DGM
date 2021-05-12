@@ -34,7 +34,7 @@ class FMLoss(nn.Module):
             n_sum += pred_ns[b].to(n_sum.dtype).to(pred_perm.device)
         return (torch.exp(alpha * loss_n / n_sum) + torch.exp(beta * loss_p / n_sum))/4 
  
-           # different weights according to data
+           ## different weights according to data, you can also set beta=0 because of sinkhorn normalization
            # alpha = 2
            # beta = 0.1
            # return torch.exp(alpha * loss_n / n_sum) + torch.exp(beta * loss_p / n_sum)

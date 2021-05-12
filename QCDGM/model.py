@@ -43,6 +43,10 @@ class Net(CNN):
                 affinity_layer = Affinity(cfg.QCDGM.GNN_FEAT + 2)
             self.add_module('gnn_layer_{}'.format(i), gnn_layer)
             self.add_module('affinity_{}'.format(i), affinity_layer)
+ 
+            if i == self.gnn_layer - 2:  # not used in ours
+                self.add_module('cross_graph_{}'.format(i), nn.Linear(cfg.PCA.GNN_FEAT * 2 + 4, cfg.PCA.GNN_FEAT + 2))
+
     def forward(self, src, tgt, P_src, P_tgt, G_src, G_tgt, H_src, H_tgt, ns_src, ns_tgt, K_G, K_H, edge_src, edge_tgt, edge_feat1, edge_feat2, perm_mat, type='img'):
         if type == 'img' or type == 'image':
             # extract feature
