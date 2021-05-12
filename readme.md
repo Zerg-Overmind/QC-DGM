@@ -59,7 +59,7 @@ For the convenience of evaluation, our trained parameter file is provided by Bai
 | -------| -------- |------| ------ | --- | ------ | ------- | -------|
 | qc-DGM | [parameter](https://drive.google.com/file/d/16jhOBpAEUREbqjxzjoW0KbsJkWOZfJ_i/view?usp=sharing) | 100.0 | 95.0 | 93.8 | 93.8 |  97.6 | 96.0 |  
 
-For the convenience of evaluation, our trained parameter file is provided by BaiduYun [download](https://pan.baidu.com/s/1MA8eQrAUIDBzjBKt520lmg) link with extracting code **will**. Download the parameter file with path to ``./output/QCDGM_willow/params/`` and run evaluation on Willow Object Class dataset. 
+For the convenience of evaluation, our trained parameter file is provided by BaiduYun [download](https://pan.baidu.com/s/1vvdzjYzc2y2U0FCd2kvqdg) link with extracting code **will**. Download the parameter file with path to ``./output/QCDGM_willow/params/`` and run evaluation on Willow Object Class dataset. 
  
 ## Citation
 ```text
