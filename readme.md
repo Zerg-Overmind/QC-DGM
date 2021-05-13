@@ -51,7 +51,7 @@ We report the performance on Pascal VOC Keypoint and Willow Object Class dataset
 | -------- | -------- | ---- | ---- | ---- | ---- | ------ | ----- | ---- | ---- | ----- | ---- | ----- | ---- | ----- | ----- | ------ | ----- | ----- | ---- | ----- | ---- | -------- |
 |  qc-DGM  | [parameter](https://drive.google.com/file/d/1uiNstmYg_J9252ybbl0PKz_-qWB2qJMQ/view?usp=sharing)| 48.4 | 61.6 | 65.3 | 61.3 |  82.4  | 79.6 | 74.3 | 72.0 | 41.8 | 68.8 | 65.0 | 66.1 | 70.9 | 69.6 |  48.2  | 92.1 | 69.0 | 66.7 | 90.4 | 91.8 |  69.3  |
 
-For the convenience of evaluation, our trained parameter file is provided by BaiduYun [download](https://pan.baidu.com/s/1ODcbCUP2PyXXzHBEs70e1Q) link with extracting code **vocc**. Download the parameter file with path to ``./output/QCDGM_voc/params/`` and run evaluation on Pascal VOC Keypoint.
+For the convenience of evaluation, our trained parameter file is also provided by BaiduYun [download](https://pan.baidu.com/s/1ODcbCUP2PyXXzHBEs70e1Q) link with extracting code **vocc**. Download the parameter file with path to ``./output/QCDGM_voc/params/`` and run evaluation on Pascal VOC Keypoint.
 
 **Willow Object Class**
 
@@ -59,7 +59,7 @@ For the convenience of evaluation, our trained parameter file is provided by Bai
 | -------| -------- |------| ------ | --- | ------ | ------- | -------|
 | qc-DGM | [parameter](https://drive.google.com/file/d/16jhOBpAEUREbqjxzjoW0KbsJkWOZfJ_i/view?usp=sharing) | 100.0 | 95.0 | 93.8 | 93.8 |  97.6 | 96.0 |  
 
-For the convenience of evaluation, our trained parameter file is provided by BaiduYun [download](https://pan.baidu.com/s/1vvdzjYzc2y2U0FCd2kvqdg) link with extracting code **will**. Download the parameter file with path to ``./output/QCDGM_willow/params/`` and run evaluation on Willow Object Class dataset. 
+For the convenience of evaluation, our trained parameter file is also provided by BaiduYun [download](https://pan.baidu.com/s/1vvdzjYzc2y2U0FCd2kvqdg) link with extracting code **will**. Download the parameter file with path to ``./output/QCDGM_willow/params/`` and run evaluation on Willow Object Class dataset. 
  
 ## Citation
 ```text
