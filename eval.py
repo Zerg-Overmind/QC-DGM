@@ -82,7 +82,7 @@ def eval_model(model, dataloader, eval_epoch=None, verbose=False):
             A_tgt = torch.bmm(G2_gt, H2_gt.transpose(1, 2))
 
             for miter in range(10):
-               X = qc_opt(A_src, B_tgt, s_pred, Xnew, lb) 
+               X = qc_opt(A_src, A_tgt, s_pred, Xnew, lb) 
                Xnew = lap_solver(X, n1_gt, n2_gt)
              
             s_pred_perm = lap_solver(Xnew, n1_gt, n2_gt)
