@@ -48,7 +48,7 @@ TRAIN:
 
 # Evaluation settings and PCK metric
 EVAL:
-  EPOCH: 31  # epoch to be tested
+  EPOCH: 20  # epoch to be tested
   SAMPLES: 1000  # number of tested pairs for each class
 
 # QCDGM model parameters
