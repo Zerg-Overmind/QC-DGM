@@ -1,5 +1,5 @@
 # QC-DGM
-This is the official PyTorch implementation and models for our CVPR 2021 paper: [Deep Graph Matching under Quadratic Constraint]([https://Zerg-Overmind.github.io/files/cvpr2021_Gao.pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Deep_Graph_Matching_Under_Quadratic_Constraint_CVPR_2021_paper.pdf)).
+This is the official PyTorch implementation and models for our CVPR 2021 paper: [Deep Graph Matching under Quadratic Constraint]([https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Deep_Graph_Matching_Under_Quadratic_Constraint_CVPR_2021_paper.pdf]).
 
 It also contains the configuration files to reproduce the results of qc-DGM_1 reported in the paper on Pascal VOC Keypoint and Willow Object Class dataset.
 
